@@ -21,6 +21,7 @@ namespace ConsoleApp8
         {
             var question = "dog";
             Console.WriteLine(UseChatGPT(question).Result);
+            Console.WriteLine("Hello word");
         }
         
         public static async Task<string> UseChatGPT(string question)
